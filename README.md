@@ -1,39 +1,54 @@
- 🛠️ IT Automation Toolkit – CMD Version
+🛠️ IT Automation Toolkit – CMD Version
 
-A fully interactive Batch (.bat) script for IT professionals to automate daily tasks using a clean CLI interface in Windows CMD. No installation or dependencies required.
+A fully interactive Windows Batch (.bat) script for IT professionals to automate daily tasks using a simple CLI menu. This toolkit is designed to save time, reduce repetitive work, and enhance troubleshooting without installing third-party tools.
+
+---
 
 🚀 Features
 
 | Feature                      | Description |
 |-----------------------------|-------------|
-| ✅ Network Scanner           | Ping-based scan with ARP output |
-| ✅ Ping Checker              | Check connectivity to domain/IP |
-| ✅ AD User Status Checker    | View if a domain user is active |
-| ✅ Backup Folder             | Copy folder to new timestamped backup |
-| ✅ Log Extractor             | View System, Application, or Security logs from the last X days |
-| ✅ Disk Usage Monitor        | Show disk space used in GB and percentage |
-| ✅ Temp File Cleaner         | Clean `%TEMP%`, `C:\Windows\Temp`, and `Prefetch` |
-| ✅ Network Info Viewer       | Shows IP, MAC, Gateway + Wi-Fi SSID and password |
-
- 🧰 Requirements
-- Windows 10/11
-- Admin privileges for full functionality (especially logs & Wi-Fi keys)
-- PowerShell enabled (included by default in Windows)
-
-
- 🛠️ How to Use
-1. Download `IT_Tools.bat`
-2. Right-click > Run as Administrator
-3. Use the menu to navigate the toolkit
-
- 🔒 Notes
-- Wi-Fi password feature only shows currently connected network
-- Log reader uses PowerShell (`Get-WinEvent`)
-- For sending email or advanced tasks, check [Python Version](https://github.com/...)
-
- 📄 License
-MIT
+| ✅ Network Scanner           | Ping sweep with ARP listing |
+| ✅ Ping Checker              | Test connectivity to a domain/IP |
+| ✅ AD User Status Checker    | Check if a domain user is active or disabled |
+| ✅ Backup Folder             | Create timestamped backup of any folder |
+| ✅ Log Extractor             | View and export logs from System, Application, or Security |
+| ✅ Disk Usage Monitor        | Show usage in GB and percentage via PowerShell |
+| ✅ Temp Cleaner              | Cleans `%TEMP%`, `C:\Windows\Temp`, and `Prefetch` |
+| ✅ Network Info Viewer       | Shows IP, MAC, Gateway, SSID, and password of current Wi-Fi |
+| ✅ System Troubleshooter     | Run SFC, DISM, restart Print Spooler, and list drivers |
 
 ---
 
-Created with ❤️ by [Hossam Yosri](https://www.linkedin.com/in/hossamyosri)
+🧰 Requirements
+- Windows 10 / 11
+- Run as Administrator (recommended)
+- PowerShell (built-in)
+- No internet required
+
+---
+
+📦 How to Use
+
+1. Download `IT_T.bat`
+2. Right-click → Run as Administrator
+3. Use the interactive menu to run any task
+
+---
+
+🛡️ Security
+- No external dependencies
+- No modifications to registry or critical settings
+- You can audit the full script before running
+
+---
+
+🧑‍💻 Created by
+
+Hossam Yosri – IT Specialist  
+🔗 [LinkedIn](https://www.linkedin.com/in/hossamyosri)  
+
+---
+
+📄 License
+MIT License – Free for personal and professional use.
